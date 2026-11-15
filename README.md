@@ -104,6 +104,18 @@ The demonstration runs sample stations and prints example alerts in English and 
 4. Deploy to a test environment for experimentation.
 5. Explore disaster creation, donations, household registration, evacuation confirmation, aid claims, and receipt confirmation.
 
+### 3. Automated Testing with Foundry
+
+Run the unit and integration tests using [Foundry](https://getfoundry.sh/):
+
+```bash
+# Run all test suites
+forge test -vvv
+
+# Run formatting checks
+forge fmt --check
+```
+
 Never use this unaudited prototype for real funds or operational disaster response.
 
 ## Roadmap
